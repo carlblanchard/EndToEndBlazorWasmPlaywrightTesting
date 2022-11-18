@@ -1,5 +1,5 @@
 # EndToEndBlazorWasmPlaywrightTesting
-## An ttempt to get Blazor WASM, WebAPI, and Playwright to all play nicely together in memory for testing.
+## An atempt to get Blazor WASM, WebAPI, and Playwright to all play nicely together in memory for testing.
 
 If you have not read the readme file on the main branch I recommend you do so first. 
 
