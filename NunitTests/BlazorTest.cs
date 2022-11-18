@@ -26,7 +26,7 @@ public class BlazorTest : PageTest
             EnvironmentName = "Development",
             ContentRootPath = baseDir,
             WebRootPath = Path.Combine(baseDir, "wwwroot"),
-            ApplicationName = "BlazorApp",
+            ApplicationName = "BlazorWasmApp",
         });
 
         // Add services to the container.
@@ -50,7 +50,7 @@ public class BlazorTest : PageTest
         _app.MapBlazorHub();
         
         //Balzor Server
-        _app.MapFallbackToPage("/_Host");
+        //_app.MapFallbackToPage("/_Host");
 
         var readyTcs = new CancellationTokenSource();
         _ = Task.Run(async() =>
