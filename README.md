@@ -12,7 +12,7 @@ The goal of this project is to reproduce the same in-memory testing for a Blazor
 ![image](https://user-images.githubusercontent.com/18427214/202762027-58c572fe-2563-49da-8c97-c31798e8458a.png)
 
 - BlazorApp - Blazor Server Application (Based on Max Schmitt's example https://github.com/mxschmitt/razor-playwright-dotnet-example)
-- BlazorWasmApp - Stand along Blazor Wasm application. - Target to test in memory.
+- BlazorWasmApp - (Not currently used on this branch) Stand along Blazor Wasm application. - Target to test in memory.
 - NUnitTests - Adapted version of Max Schmitt's example https://github.com/mxschmitt/razor-playwright-dotnet-example 
   - The key here is that the UnitTest1.cs inherits the BlazorTests.cs and starts the server in OneTimeSetUp. The Utilimiate goal would be starting both hosts (WebAPI & FrontEnd) in an un-namespaced OneTimeSetUp to cover all tests and reuse the hosts between testing. 
 - WebAPI 
