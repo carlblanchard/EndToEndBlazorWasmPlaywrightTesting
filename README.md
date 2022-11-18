@@ -1,5 +1,5 @@
 # EndToEndBlazorWasmPlaywrightTesting
-## An ttempt to get Blazor WASM, WebAPI, and Playwright to all play nicely together in memory for testing.
+## An attempt to get Blazor WASM, WebAPI, and Playwright to all play nicely together in memory for testing.
 
 This initial commit demonstrates testing in memory using Playwright, against a Blazor Server front end, a separate WebAPI and NUnit test project.
 The WebAPI is created using WebApplicationFactory, this allows you to inject mocked databases, storage and other dependencies. 
