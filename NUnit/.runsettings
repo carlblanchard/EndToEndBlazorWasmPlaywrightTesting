@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- NUnit adapter -->
+  <NUnit>
+    <NumberOfTestWorkers>24</NumberOfTestWorkers>
+  </NUnit>
+  <TestRunParameters>
+        <Parameter name="homepageurl" value="https://localhost:5000/"/>
+        <Parameter name="apiurl" value="https://localhost:5001/"/>
+  </TestRunParameters>
+  <!-- General run configuration -->
+  <RunConfiguration>
+   <ResultsDirectory>.\TestResults</ResultsDirectory>
+    <EnvironmentVariables>
+      <!-- For debugging selectors, it's recommend to set the following environment variable -->
+      <DEBUG>pw:api</DEBUG>
+    </EnvironmentVariables>
+  </RunConfiguration>
+  <!-- Playwright -->
+  <Playwright>
+    <BrowserName>chromium</BrowserName>
+    <ExpectTimeout>5000</ExpectTimeout>
+    <LaunchOptions>
+      <Headless>false</Headless>
+      <Channel>msedge</Channel>
+    </LaunchOptions>
+  </Playwright>
+</RunSettings>
