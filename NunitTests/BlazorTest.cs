@@ -26,7 +26,7 @@ public class BlazorTest : PageTest
             EnvironmentName = "Development",
             ContentRootPath = baseDir,
             WebRootPath = Path.Combine(baseDir, "wwwroot"),
-            ApplicationName = "BlazorApp",
+            ApplicationName = "ProxyTestHarness",
         });
 
         // Add services to the container.
@@ -50,7 +50,7 @@ public class BlazorTest : PageTest
         _app.MapBlazorHub();
         
         //Balzor Server
-        _app.MapFallbackToPage("/_Host");
+        //_app.MapFallbackToPage("/Index.html");
 
         var readyTcs = new CancellationTokenSource();
         _ = Task.Run(async() =>
@@ -70,7 +70,7 @@ public class BlazorTest : PageTest
     public override BrowserNewContextOptions ContextOptions()
     {
         var options = base.ContextOptions() ?? new();
-        options.BaseURL = "http://localhost:5000";
+        options.BaseURL = "https://localhost:7112";
         return options;
     }
 }

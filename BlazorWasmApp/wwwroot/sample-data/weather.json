@@ -2,26 +2,26 @@
   {
     "date": "2018-05-06",
     "temperatureC": 1,
-    "summary": "Freezing"
+    "summary": "From WASM App - Freezing"
   },
   {
     "date": "2018-05-07",
     "temperatureC": 14,
-    "summary": "Bracing"
+    "summary": "From WASM App - Bracing"
   },
   {
     "date": "2018-05-08",
     "temperatureC": -13,
-    "summary": "Freezing"
+    "summary": "From WASM App - Freezing"
   },
   {
     "date": "2018-05-09",
     "temperatureC": -16,
-    "summary": "Balmy"
+    "summary": "From WASM App - Balmy"
   },
   {
     "date": "2018-05-10",
     "temperatureC": -2,
-    "summary": "Chilly"
+    "summary": "From WASM App - Chilly"
   }
 ]

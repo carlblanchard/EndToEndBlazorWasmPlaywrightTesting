@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NunitTests", "NunitTests\Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{074FD377-F4B6-4E92-9D89-1A403278E6DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmApp", "BlazorWasmApp\BlazorWasmApp.csproj", "{76321CF9-7D84-41FB-8498-A2182727D667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmApp", "BlazorWasmApp\BlazorWasmApp.csproj", "{76321CF9-7D84-41FB-8498-A2182727D667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTestHarness", "ProxyTestHarness\ProxyTestHarness.csproj", "{521451B1-CD3C-4C00-9F77-547030C6383D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76321CF9-7D84-41FB-8498-A2182727D667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76321CF9-7D84-41FB-8498-A2182727D667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76321CF9-7D84-41FB-8498-A2182727D667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521451B1-CD3C-4C00-9F77-547030C6383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521451B1-CD3C-4C00-9F77-547030C6383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521451B1-CD3C-4C00-9F77-547030C6383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521451B1-CD3C-4C00-9F77-547030C6383D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NUnit\BlazorApp.csproj" />
+    <ProjectReference Include="..\ProxyTestHarness\ProxyTestHarness.csproj" />
     <ProjectReference Include="..\WebApi\WebApi.csproj" />
   </ItemGroup>
 
